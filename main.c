@@ -30,7 +30,6 @@ int main(int argc, char **argv)
     printf("\nThe postnOrder traversal is:\n" );   postOrder( rootPtr );
    */
   printf("\n");
-  print_tree(b.root);
-   printf("\n");
+  
    
 } // end main
