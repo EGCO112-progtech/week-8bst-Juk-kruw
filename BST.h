@@ -127,7 +127,32 @@ void post_order(TreeNodePtr treePtr){
 }
 
 
+void treeOrder(TreeNodePtr treePtr,int level)
+{ int i;
+   if(treePtr != NULL){
+     treeOrder(treePtr->rightPtr,level+1);
+  for(i=0;i<level;i++)
+  {
+   printf("  ");
 
+  }
+   printf("%d\n",treePtr->data);
+   treeOrder(treePtr->leftPtr,level+1);  
+      
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   }
+
+
+
+}
 
 
 
