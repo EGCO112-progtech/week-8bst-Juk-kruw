@@ -25,11 +25,10 @@ int main(int argc, char **argv)
    printf("\nThe preOrder traversal is:\n");
    pre_order(b.root);
    printf("\nThe postOrder traversal is:\n");
-   post_order(b.root);/*
-      // traverse the tree postOrder
-    printf("\nThe postnOrder traversal is:\n" );   postOrder( rootPtr );
-   */
-  printf("\n");
+   post_order(b.root);
+   printf("\nThe treeOrder traversal is:\n");
+   treeOrder(b.root,0);   // traverse the tree postOrder
+   printf("\n");
   
    
 } // end main
